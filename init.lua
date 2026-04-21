@@ -815,6 +815,11 @@ require('lazy').setup({
     lazy = false,
     priority = 1000,
   },
+  {
+    'artanikin/vim-synthwave84',
+    lazy = false,
+    priority = 1000,
+  },
   { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
   { 'rebelot/kanagawa.nvim', lazy = false, priority = 999 },
 
@@ -836,7 +841,7 @@ require('lazy').setup({
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-      vim.cmd.colorscheme 'cyberdream'
+      vim.cmd.colorscheme 'catppuccin-nvim'
     end,
   },
 
